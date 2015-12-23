@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule    ^([A-Za-z0-9-]+)-u([0-9]+)/?$    urun-detay.php?urun_adi=$1&urun_id=$2   [NC,L]
+RewriteRule    ^siparis-([0-9]+)-([0-9]+)/?$    siparis.php?urun_id=$1&adet=$2  [NC,L]
+RewriteRule    ^([0-9]+)-([A-Za-z0-9-]+)-([A-Za-z0-9-]+)/?$    urunler.php?s=$1&marka=$2&kategori=$3   [NC,L]
+
+Options All -Indexes
+
+ErrorDocument 404   /404.php
+ErrorDocument 403   /404.php
+ErrorDocument 505   /404.php
+ErrorDocument 503   /404.php
