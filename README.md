@@ -23,9 +23,10 @@
       Sipariş Takip numarası aslında hiç bir yere kaydedilmiyor bu sadece sipariş id'sinden üretilmiş bir değer.
       Tema motoru olara smarty kullanıldı.
       
-      Admin Panelinden Bir Kaç Resim : 
       
-        <img src="panel_ss1.jpg" /><br />
+Admin Panelinden Bir Kaç Resim : 
+      
+<img src="panel_ss1.jpg" /><br />
         
-        <img src="panel_ss2.jpg" /><br />
+<img src="panel_ss2.jpg" /><br />
       
